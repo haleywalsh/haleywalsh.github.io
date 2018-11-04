@@ -131,42 +131,287 @@ h5 {
 
 
 .pageTitle {
-    font-family: 'Open+Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #eee;
     background-color: #C59B7E;
     padding: .25rem;
     font-style: italic;
 }
 
+.brand {
+    background-image: url('../img/brand.jpg');
+    height: 100px;
+    background-attachment: fixed;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 8px solid #26596f;
+    border-top: 8px solid #26596f;
+}   
+
+.brand h3 {
+    margin-bottom: -20px;
+}
+
+.brand h5 {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+/* index page */
+
 .header {
    text-align: center;
-   color: #C59B7E;
    padding-top: 50px;
+    background-color: rgb(82,155,187, .75);
     background-image: url('../img/headerIMG.jpg');
     height: 300px;
 }
 
+.header h1 {
+    font-size: 3.5em;
+    margin-bottom: -20px;
+}
+
 .header h3 {
-    font-family: 'Open+Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    padding: 0px 10px 20px 10px;
+}
+
+
+.Mybutton, .start {
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    font-family: 'Chewy', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    background: #6C4270;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.button:hover,.Mybutton:hover, .start:hover {
+    color: #000;
+    background: #C59B7E;
+}
+
+
+.theme {
+    text-align: center;
+    background-image: url('../img/leaves.jpg');
+    height: 175px;
+    margin-top: -25px;
+    border-top: 5px solid #eee;
+    border-bottom: 5px solid #eee;
+}
+
+.theme h1 {
+    font-size: 3rem;
+    margin: -20px;
+}
+
+.theme h3 {
+    font-family: 'Lato', sans-serif;
     font-style: italic;
 }
 
-input.MyButton {
-width: 300px;
-padding: 20px;
-cursor: pointer;
-font-family: 'Chewy', sans-serif;
-font-size: 100%;
-background: #6C4270;
-color: #fff;
-border: 1px solid #eee;
-border-radius: 10px;
+
+.work {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #26596f;
+    overflow: auto;
 }
 
-input.MyButton:hover {
-color: #000;
-background: #C59B7E;
+.how {
+    width: 50%;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 0 auto;
 }
+
+/* order page */
+
+.ordernow {
+    background-color: #529BBB;
+    padding-top: 10px;
+}
+
+.ordernow h1, .ordernow h3 {
+    padding-left: 30px;
+}
+
+.ordernow h4 {
+    font-family: 'Lato', sans-serif;
+    padding-left: 30px;
+    margin-bottom: -20px;
+}
+
+/* featured page */
+.harper {
+    background-color: #529BBB;
+}
+
+.harper h2, .ozzy h2 {
+    margin-bottom: -30px;
+}
+
+.harper h4, .ozzy h4 {
+    font-family: 'Lato', sans-serif;
+}
+
+.harper h5, .ozzy h5 {
+    text-align: center;
+}
+
+.ozzy {
+    background-color: #C59B7E;
+    text-align: right;
+}
+
+.harper, .ozzy {
+    padding: 30px;
+}
+
+.hprofile, .oprofile {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.hprofile {
+    float: left;
+    margin-right: 20px;
+}
+
+.oprofile {
+    float: right;
+    margin-left: 20px;
+}
+
+.howto {
+    background-color: #6C4270;
+    color: #eee;
+    padding: 30px;
+
+}
+
+.howto h5 {
+    font-family: 'Lato', sans-serif;
+}
+
+/* charity page */
+.charity {
+    text-align: center;
+}
+
+.charity h4 {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+.redrover {
+    width:75%;
+}
+
+.quote {
+    background-color: #6C4270;
+    color: #eee;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+.dogs {
+    width: 100%;
+    border-bottom: 5px solid #eee;
+    border-top: 5px solid #eee;
+}
+
+.background {
+    background-color: #C59B7E;
+    padding: 20px;
+}
+
+.background h4 {
+    font-family: 'Lato', sans-serif
+}
+
+.background h5 {
+    text-align: center;
+}
+
+.website, .donate {
+    color: #26596f;
+}
+
+/* about page */
+.about {
+    background-color: #529BBB;
+    padding: 30px;
+}
+
+.about h3, .about h4 {
+    font-family: 'Lato', sans-serif;
+}
+
+.about h3 {
+    font-style: italic;
+}
+
+.contactwrapper {
+    background-color: #6C4270;
+    color: #eee;
+    padding-top: 20px;
+    border-top: 5px solid #eee;
+}
+
+
+.contactwrapper h3 {
+    text-align: center;
+}
+
+label {
+    font-family: 'Chewy', sans-serif;
+    margin-left: 30px;
+}
+
+input, textarea {
+    border-radius: 10px;
+}
+
+input {
+    border: 2px solid #eee;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 75%;
+}
+
+textarea {
+    width: 76%;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.button {
+    padding: 1em;
+    background-color: #529BBB;
+    color: #eee;
+    border-radius: 10px;
+    border: 2px solid #eee;
+    width: 100px;
+    font-family: 'Chewy', sans-serif;
+    font-size: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+}
+
 
 footer {
     background-color: #26596F;
@@ -187,6 +432,9 @@ footer h3 {
     width: 50%;
 }
 
+.one-third {
+    
+}
 
 /* ==========================================================================
    Helper classes
@@ -276,6 +524,84 @@ footer h3 {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+    .header {
+        background-image: url('../img/headerIMG2.jpg');
+        height: 350px;
+        border: 15px solid #26596f;
+        background-attachment: fixed;
+    }
+
+    .Mybutton {
+        font-size: 150%;
+        padding: 25px 100px;
+    }
+
+    .theme {
+        height: 225px;
+    }
+
+    .theme h3, .theme h5 {
+        font-size: 125%;
+    }
+
+    .theme h1 {
+        font-size: 500%;
+    }
+
+
+
+    .how {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .one-third {
+        width: 33%;
+        float: left;
+        overflow: hidden;
+    }
+
+    .start {
+        width: 100px;
+        margin: 0 auto;
+        padding: 20px;
+        cursor: pointer;
+        font-family: 'Chewy', sans-serif;
+        font-size: 100%;
+        text-align: center;
+        background: #6C4270;
+        color: #fff;
+        border: 1px solid #eee;
+        border-radius: 10px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .brand {
+    background-image: url('../img/paw-prints.jpg');
+    color: #eee;
+}
+
+    .brand h3, .brand h5 {
+        font-size: 125%;
+    }
+
+    .redrover {
+        width: 400px;
+    }
+
+    .dogs {
+        width: 500px;
+        display: block;
+        margin: 0 auto;
+        border: none;
+    }
+
+    .snow {
+        background-image: url('../img/paw-prints.jpg');
+        border-bottom: 5px solid #eee;
+        border-top: 5px solid #eee;
+    }
 }
 
 @media print,
